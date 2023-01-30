@@ -3,7 +3,7 @@
 API to list all the videos - `http://localhost:8000/api/v1/list`
 
 
-APi to list vide with filter - `http://127.0.0.1:8000/api/v1/list?filter=a`
+APi to list video with filter - `http://127.0.0.1:8000/api/v1/list?filter=a`
 
 ## To run the project inside a container using docker
 1. Create a .env file and add your google API key there with the name of variable being `GOOGLE_API_KEY`.
