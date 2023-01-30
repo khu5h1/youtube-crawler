@@ -1,0 +1,19 @@
+# version: "3.3"
+# services:
+#   youtube-crawler:
+#     build: .
+#     ports:
+#       - '8000:8000'
+
+version: "3.7"
+
+services:
+    youtube-crawler-api-new:
+        env_file: .env
+        build: .
+        container_name: youtube-crawler-api-new
+        # volumes:
+        #     - ./:/root/youtube-crawler
+        ports:
+            - 8000:8000
+    
